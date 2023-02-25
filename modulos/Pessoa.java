@@ -4,6 +4,17 @@ public class Pessoa {
     private String cpf;
     private String nome;
     private int idade;
+    private String company_name;
+
+    public void setCompany(String company_name)
+    {
+        this.company_name = company_name;
+    }
+
+    public String getCompany()
+    {
+        return company_name;
+    }
 
     public void setNome(String nome)
     {
